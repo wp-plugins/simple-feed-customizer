@@ -24,7 +24,7 @@ Plugin Name: Simple Feed Customizer
 Plugin URI: http://tech4sky.com/
 Description: With this plugin, you can add copyright text at the end of each feed item, display feature image in feed and set the cache duration of feed.
 Author: Agbonghama Collins
-Version: 1.0
+Version: 1.1
 Author URI: http://tech4sky.com/
 */
 
