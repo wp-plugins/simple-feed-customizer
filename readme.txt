@@ -12,7 +12,7 @@ Add copyright text at the end of each feed item, display feature image and set t
 
 == Description ==
 
-Simple Feed Customizer is use in customizing WordPress feed such as adding a read-more link at the end of a Summary feed, adding copyright text at the bottom of each feed item, and including respective feature image of post in feed.
+Simple Feed Customizer is use in customizing WordPress feed such as adding a read-more link at the end of a Summary feed, adding copyright text at the bottom of each feed item, and including feature image to each and every feed post.
 
 
 == Installation ==
@@ -33,6 +33,7 @@ Plugin installation is quite easy.
 == Screenshots ==
 
 1. screenshot-1.jpg
+2. screenshot-2.png
 
 == Frequently Asked Questions ==
 
@@ -42,6 +43,9 @@ Yes, just add the anchor text you want to use as the read-more text E.g Continue
 
  
 == Changelog ==
+
+= 1.2 =
+* Added option to change feature image size
 
 = 1.1 =
 * Stable version
