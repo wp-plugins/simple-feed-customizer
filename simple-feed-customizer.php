@@ -24,7 +24,7 @@ Plugin Name: Simple Feed Customizer
 Plugin URI: http://tech4sky.com/
 Description: With this plugin, you can add copyright text at the end of each feed item, display feature image in feed and set the cache duration of feed.
 Author: Agbonghama Collins
-Version: 1.1
+Version: 1.2
 Author URI: http://tech4sky.com/
 */
 
@@ -36,6 +36,7 @@ $sfc_plugin_options = array(
 'copyright' => "This article is copyright &copy; &nbsp;" . get_bloginfo('name'),
 'feedImage' => '',
 'cachetime' => 7200,
+'size' => 'medium',
 );
 update_option( 'sfc_simple_feed_customizer', $sfc_plugin_options );
 }
@@ -47,6 +48,7 @@ update_option( 'sfc_simple_feed_customizer', $sfc_plugin_options );
 	$copyright = $options['copyright'];
 	$feed_image = $options['feedImage'];
 	$feed_cache_duration = (int) $options['cachetime'];
+	$size = $options['size'];
 	
 add_action( 'admin_menu', 'sfc_simple_feed_customizer_menu' );
 
@@ -116,7 +118,7 @@ function sfc_simple_feed_customizer() {
 	// Display and fill the form field
 	function sfc_simple_feed_customizer_setting_input() {
 	// Retrieve the settings values form DB and make them global
-	global $read_more, $copyright, $feed_image, $feed_cache_duration;
+	global $read_more, $copyright, $feed_image, $feed_cache_duration, $size;
 	echo "
 	<tr valign='top'>
 	<th scope='row'><label for='read_more'> <strong>Read more text</strong> &nbsp; ( Leave this field empty if your feed is not Summary )</label></th>";
@@ -132,10 +134,23 @@ function sfc_simple_feed_customizer() {
 	echo "
 	<tr valign='top'>
 	<th scope='row'><label for='fname'><strong> Add Feature Image to feed </strong></label></th>";
-	?> <td><input type="checkbox" name="sfc_simple_feed_customizer[feedImage]" value="1" <?php checked($feed_image, 1); ?> /><td>
+	?> <td><input type="checkbox" name="sfc_simple_feed_customizer[feedImage]" value="1" <?php checked($feed_image, 1); ?> /></td>
 </tr>
 <?php
 echo "
+	<tr valign='top'>
+	<th scope='row'><label for='copyright'><strong>Feature Image Size </strong></label></th>"; ?>
+	<td>	
+	<select name='sfc_simple_feed_customizer[size]'>
+	<option value='thumbnail' <?php selected($size, 'thumbnail') ?> >Thumbnail</option>
+	<option value='medium'<?php selected($size, 'medium'); ?> >Medium resolution</option>
+	<option value='large' <?php selected($size, 'large' ); ?> >Large resolution</option>
+	<option value='full' <?php 
+	selected($size, 'full' ); ?> >Original resolution</option>
+	</select></td>
+	</tr>
+	
+<?php echo "
 <tr valign='top'>
 	<th scope='row'><label for='cachetime'><strong> Feed Cache Duration </strong> (in Seconds)</label></th>";
 echo "<td><input id='read_more' name='sfc_simple_feed_customizer[cachetime]' type='text' value='$feed_cache_duration' /><td>
@@ -144,11 +159,11 @@ echo "<td><input id='read_more' name='sfc_simple_feed_customizer[cachetime]' typ
 
 // Feature image function
 function add_featured_image_to_feed($content) {
-global $post;
+global $post, $size;
 if ( has_post_thumbnail( $post->ID ) ){
 $content = '
 <div>
-' . get_the_post_thumbnail( $post->ID, 'large' ) . '
+' . get_the_post_thumbnail( $post->ID, $size ) . '
 </div>' . $content;
 }
 return $content;
