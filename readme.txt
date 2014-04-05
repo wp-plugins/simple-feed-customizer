@@ -10,11 +10,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Add copyright text at the end of each feed item, display feature image and set the cache duration of feed.
 
-== Description ==
+== Description == 
 
 Simple Feed Customizer is use in customizing WordPress feed such as adding a read-more link at the end of a Summary feed, adding copyright text at the bottom of each feed item, and including feature image to each and every feed post.
 
-More information on how this plugin works can be found at [Tech4sky.com post]( http://tech4sky.com/simple-feed-customizer-wordpress-plugin/)
+I built this plugin in order to deter scrapers who were constantly a torn in my flesh stealing my blog articles via some [special kind of software]( http://tech4sky.com/simple-feed-customizer-wordpress-plugin/) that rip-off RSS feed.
+
+More information on how this plugin works can be found at [Tech4sky.com post]( http://tech4sky.com/build-scraper-site-blogger-wordpress/)
 
 == Installation ==
 
@@ -28,7 +30,7 @@ Plugin installation is quite easy.
 
 = Step 2 =
 
-1. Go to Wodpress Admin Panel > Setting > Simple Feed Customizer, 
+1. Go to WordPress Admin Panel > Setting > Simple Feed Customizer, 
 2. set your feed copyright text and other options and update it
 
 == Screenshots ==
