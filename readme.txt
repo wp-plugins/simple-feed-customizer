@@ -14,7 +14,7 @@ Add copyright text at the end of each feed item, display feature image and set t
 
 Simple Feed Customizer is use in customizing WordPress feed such as adding a read-more link at the end of a Summary feed, adding copyright text at the bottom of each feed item, and including feature image to each and every feed post.
 
-I built this plugin in order to deter scrapers who were constantly a torn in my flesh stealing my blog articles via some [special kind of software]( http://tech4sky.com/build-scraper-site-blogger-wordpress/) that rip-off RSS feed.
+I built this plugin in order to deter scrapers who were constantly a torn in my flesh stealing my blog articles via some [special kind of software]( http://w3guy.com/build-scraper-site-blogger-wordpress/) that rip-off RSS feed.
 
 More information on how this plugin works can be found [Here]( http://w3guy.com/simple-feed-customizer-wordpress-plugin/)
 
