@@ -16,7 +16,7 @@ Simple Feed Customizer is use in customizing WordPress feed such as adding a rea
 
 I built this plugin in order to deter scrapers who were constantly a torn in my flesh stealing my blog articles via some [special kind of software]( http://tech4sky.com/build-scraper-site-blogger-wordpress/) that rip-off RSS feed.
 
-More information on how this plugin works can be found at [Tech4sky.com post]( http://tech4sky.com/simple-feed-customizer-wordpress-plugin/)
+More information on how this plugin works can be found [Here]( http://w3guy.com/simple-feed-customizer-wordpress-plugin/)
 
 == Installation ==
 
@@ -44,7 +44,7 @@ Plugin installation is quite easy.
 
 Yes, just add the anchor text you want to use as the read-more text E.g Continue reading... and the plugin will add the HTML link to the article.
 
-More information on how this plugin works can be found at [Tech4sky.com]( http://tech4sky.com/simple-feed-customizer-wordpress-plugin/)
+More information on how this plugin works can be found at this post on my [blog]( http://w3guy.com/simple-feed-customizer-wordpress-plugin/)
  
 == Changelog ==
 
