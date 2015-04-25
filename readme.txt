@@ -3,14 +3,14 @@ Contributors: collizo4sky
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HAAAMDMXMSP58
 Tags: feed, feed cache, RSS, Atom, RSS feed, feedburner
 Requires at least: 3.5
-Tested up to: 3.9
+Tested up to: 4.2
 Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Add copyright text at the end of each feed item, display feature image and set the cache duration of feed.
 
-== Description == 
+== Description ==
 
 Simple Feed Customizer is use in customizing WordPress feed such as adding a read-more link at the end of a Summary feed, adding copyright text at the bottom of each feed item, and including feature image to each and every feed post.
 
@@ -24,13 +24,13 @@ More information on how this plugin works can be found [Here]( http://w3guy.com/
 
 Plugin installation is quite easy.
 
-1. Download zip file and Extract it 
+1. Download zip file and Extract it
 2. Upload `simple-feed-customizer` folder to your /wp-content/plugins/ folder.
 2. Go to the 'Plugins' page in the menu and activate the plugin.
 
 = Step 2 =
 
-1. Go to WordPress Admin Panel > Setting > Simple Feed Customizer, 
+1. Go to WordPress Admin Panel > Setting > Simple Feed Customizer,
 2. set your feed copyright text and other options and update it
 
 == Screenshots ==
@@ -45,7 +45,7 @@ Plugin installation is quite easy.
 Yes, just add the anchor text you want to use as the read-more text E.g Continue reading... and the plugin will add the HTML link to the article.
 
 More information on how this plugin works can be found at this post on my [blog]( http://w3guy.com/simple-feed-customizer-wordpress-plugin/)
- 
+
 == Changelog ==
 
 = 1.2 =
@@ -56,5 +56,3 @@ More information on how this plugin works can be found at this post on my [blog]
 
 = 1.0 =
 * Beta version.
-
-
