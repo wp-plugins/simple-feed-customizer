@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: collizo4sky
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HAAAMDMXMSP58
-Tags: feed, feed cache, RSS, Atom, RSS feed, feedburner
+Tags: feed, feed cache, RSS, Atom, RSS feed, feedburner, spam, protection, security, scrappers, scrap
 Requires at least: 3.5
-Tested up to: 4.2
-Stable tag: 1.2
+Tested up to: 4.2.2
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Add copyright text at the end of each feed item, display feature image and set t
 
 Simple Feed Customizer is use in customizing WordPress feed such as adding a read-more link at the end of a Summary feed, adding copyright text at the bottom of each feed item, and including feature image to each and every feed post.
 
-More information on how this plugin works can be found at [Tech4sky.com post]( http://tech4sky.com/simple-feed-customizer-wordpress-plugin/)
+More information on how this plugin works can be found at [this blog post]( http://w3guy.com/simple-feed-customizer-wordpress-plugin/)
 
 == Installation ==
 
@@ -45,6 +45,9 @@ Yes, just add the anchor text you want to use as the read-more text E.g Continue
 More information on how this plugin works can be found at [Tech4sky.com]( http://tech4sky.com/simple-feed-customizer-wordpress-plugin/)
 
 == Changelog ==
+
+= 1.2.1 =
+* Bug fixes
 
 = 1.2 =
 * Added option to change feature image size
