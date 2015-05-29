@@ -16,6 +16,9 @@ Simple Feed Customizer is use in customizing WordPress feed such as adding a rea
 
 More information on how this plugin works can be found at [this blog post]( http://w3guy.com/simple-feed-customizer-wordpress-plugin/)
 
+### See Also
+* **[ProfilePress](https://wordpress.org/plugins/ppress/)**: A shortcode based WordPress form builder that makes building custom login, registration and password reset forms stupidly simple. [More info here](http://profilepress.net)
+
 == Installation ==
 
 = Step 1 =
